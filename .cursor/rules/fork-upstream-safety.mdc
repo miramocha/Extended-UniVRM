@@ -1,0 +1,19 @@
+---
+description: Never push or open PRs against upstream (this repo is a fork)
+alwaysApply: true
+---
+
+# Fork / upstream safety
+
+This repository is a **fork**. Remotes:
+
+- `origin` → `miramocha/Extended-UniVRM` (maintained fork; only allowed push/PR target)
+- `upstream` → `vrm-c/UniVRM` (upstream original; never write)
+
+Hard rules:
+
+- Never `git push` to `upstream` (any ref, any force flag).
+- Never create a pull request targeting `vrm-c/UniVRM` or any upstream remote URL.
+- Never run `gh pr create` with `--repo vrm-c/UniVRM`, or open a PR whose base repo is upstream.
+- Fetch / merge / rebase **from** upstream into the fork is allowed when the user asks to sync.
+- Push and PRs only to `origin`, and only when the user explicitly asks.

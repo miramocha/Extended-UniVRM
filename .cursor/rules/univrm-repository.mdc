@@ -19,3 +19,5 @@ alwaysApply: true
   Avoid unrelated cleanup in legacy files.
 - Do not modify package copies under `Assets/` when the authoritative source is under
   `Packages/`; identify the owning source before editing duplicated-looking code.
+- Batch Edit Mode tests: run `UniGLTF.TestRunner.RunEditModeTests` only when the Editor
+  is closed or the user explicitly requests it.
