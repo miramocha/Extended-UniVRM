@@ -1,7 +1,7 @@
 # Extended UniVRM
 
 Fork of [vrm-c/UniVRM](https://github.com/vrm-c/UniVRM) with generic VRM 1.0
-import/export extension hooks (for [UniVRMXT](https://github.com/miramocha/UniVRMXT)
+import/export extension hooks (for [UniVRMXT](https://github.com/vrmxt/UniVRMXT)
 and other optional packages). Same UPM ids as upstream: `com.vrmc.gltf`,
 `com.vrmc.vrm`, `com.vrmc.univrm`.
 
@@ -78,8 +78,8 @@ Or `Packages/manifest.json`:
 }
 ```
 
-Then add [UniVRMXT](https://github.com/miramocha/UniVRMXT) (`com.vrmxt.univrmxt`). Install
-notes: [UniVRMXT installation](https://github.com/miramocha/UniVRMXT/blob/main/docs/installation.md).
+Then add [UniVRMXT](https://github.com/vrmxt/UniVRMXT) (`com.vrmxt.univrmxt`). Install
+notes: [UniVRMXT installation](https://github.com/vrmxt/UniVRMXT/blob/main/docs/installation.md).
 
 This repo is also a Unity project checkout. For VRMXT import onto the `.vrm` asset and
 `VRMXT_*` export, enable **Project Settings → VRM10 → Enable VRM Import Extensions** and
